@@ -264,20 +264,23 @@ footer div{
     .imagen-tb-cel{
         display: contents;
         width: 100%;
+        text-align: center;
     }
     .imagen-tb-cel img{
         width: 100%;
     }
+    .imagen-tb-cel p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+    }
     .imagen-tb-cel a{
         color: antiquewhite;
-    font-weight: bolder;
-    text-align: center;
-    padding: 2%;
-    border-radius: 20px;
-    border: 2px solid chocolate;
-    text-decoration: none;
-    background-color: #FF5151;
-    
+        font-weight: bolder;
+        padding: 2%;
+        border-radius: 20px;
+        border: 2px solid chocolate;
+        text-decoration: none;
+        background-color: #FF5151;
     }
 
     .menu{
@@ -384,21 +387,25 @@ footer div{
     .imagen-tb-cel{
         display: contents;
         width: 100%;
+        text-align: center;
     }
     .imagen-tb-cel img{
         width: 100%;
     }
+    .imagen-tb-cel p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+    }
     .imagen-tb-cel a{
         color: antiquewhite;
-    font-weight: bolder;
-    text-align: center;
-    padding: 2%;
-    border-radius: 20px;
-    border: 2px solid chocolate;
-    text-decoration: none;
-    background-color: #FF5151;
-    
+        font-weight: bolder;
+        padding: 2%;
+        border-radius: 20px;
+        border: 2px solid chocolate;
+        text-decoration: none;
+        background-color: #FF5151;
     }
+
 
     footer {
         padding-top: 1%;
