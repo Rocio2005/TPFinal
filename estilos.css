@@ -373,7 +373,7 @@ footer div{
     footer {
         padding-top: 1%;
         width: 100%;
-        margin-top: 20%;
+        margin-top: 70%;
         text-align: center;
         background:linear-gradient(90deg,rgb(90, 87, 87), #FF5151);
         /*position: absolute;*/
@@ -434,19 +434,21 @@ footer div{
     margin-top: 80%;
 }
 input {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 3%;
     border-radius: 20px;
+    border: 2px solid chocolate;
 }
 
 textarea {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 3%;
     border-radius: 10px;
+    border: 2px solid chocolate;
 }
 
 #botonEnviar {
@@ -458,7 +460,7 @@ textarea {
     padding: 1%;
     width: 20%;
     margin: 5%;
-    font-size: 2vh;
+    font-size: 1vh;
 }
 
 #volverAInicio{
@@ -471,13 +473,14 @@ textarea {
     padding: 1%;
     width: 20%;
     margin: 5%;
-    font-size: 2vh;
+    font-size: 1vh;
 }
 #volverAInicio a {
     text-decoration: none;
     color: antiquewhite;
     padding-left: 20%;
     padding-right: 20%;
+    font-size: 1vh;
 }
 
 h4 {
@@ -488,5 +491,7 @@ h4 {
     border: solid;
     padding: 1%;
     color:white;
-    background-color: #FF5151
+    background-color: #FF5151;
+    font-style: italic;
+    font-size: 2vh;
 }
