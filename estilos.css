@@ -268,6 +268,17 @@ footer div{
     .imagen-tb-cel img{
         width: 100%;
     }
+    .imagen-tb-cel a{
+        color: antiquewhite;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2%;
+    border-radius: 20px;
+    border: 2px solid chocolate;
+    text-decoration: none;
+    background-color: #FF5151;
+    
+    }
 
     .menu{
         display: contents;
@@ -332,6 +343,14 @@ footer div{
         margin-bottom: 0%;
         padding-bottom:1.5%;
     }
+    .bodyform footer{
+        margin-bottom: 0%;
+        padding-bottom:1.5%;
+    }
+    .foot-form{
+        margin-top: 80%;
+        margin-bottom: 0%;
+    }
 }  
 
 /*TERCER NIVEL CELULAR*/
@@ -369,6 +388,17 @@ footer div{
     .imagen-tb-cel img{
         width: 100%;
     }
+    .imagen-tb-cel a{
+        color: antiquewhite;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2%;
+    border-radius: 20px;
+    border: 2px solid chocolate;
+    text-decoration: none;
+    background-color: #FF5151;
+    
+    }
 
     footer {
         padding-top: 1%;
@@ -397,6 +427,7 @@ footer div{
     }
     .foot-form{
         margin-top: 80%;
+        margin-bottom: 0%;
     }
 
     .redes{
