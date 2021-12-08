@@ -395,6 +395,10 @@ footer div{
         margin-bottom: 0%;
         padding-bottom:1.5%;
     }
+    .foot-form{
+        margin-top: 80%;
+    }
+
     .redes{
         display: none;
     }
@@ -404,6 +408,7 @@ footer div{
     .desarrollador{
         width: 50%;
     }
+
 }
 
 /*FORMULARIO DE CONTACTO*/
@@ -430,9 +435,7 @@ footer div{
     
 }
 
-.foot-form{
-    margin-top: 80%;
-}
+
 input {
     width: 70%;
     margin-left: 15%;
