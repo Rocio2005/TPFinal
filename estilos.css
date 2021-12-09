@@ -219,6 +219,7 @@ footer div{
     display: block;
     text-align: center;
     font-size: 2vh;
+    padding: 2%;
 }
 .redes a{
     display: block;
@@ -228,12 +229,25 @@ footer div{
     width: 30%;
     text-align: center;
     display: block;
+    font-size: 2vh;
+    padding: 2%;
+}
+.desarrollador a{
+    color: #FF5151;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2%;
+    border-radius: 20px;
+    border: 2px solid chocolate;
+    text-decoration: none;
+    background-color:antiquewhite;
 }
 .contacto{
     width: 30%;
     text-align: center;
     display: block;
     font-size: 2vh;
+    padding: 2%;
 }
 .contacto a{
     color: #FF5151;
@@ -245,6 +259,33 @@ footer div{
     text-decoration: none;
     background-color:antiquewhite;
 }
+
+/*ANIMACION PARA LOS BOTONES DEL NAV*/
+.animenu{
+    width: 70%;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.animenu:hover{
+    background-color: #FF5151;
+    border: 2px solid chocolate;
+    border-radius: 20px;
+    animation-name: mover;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    text-align: center;
+}
+@keyframes mover {
+    from {
+        margin-left: 1%;
+    }
+    to{
+        margin-left: 20%;
+    }
+    
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
 
 /*SEGUNDO NIVEL TABLET */
 
@@ -258,42 +299,11 @@ footer div{
         display: none;
     }
 
-    .primseccion{
+    hr{
         display: none;
     }
-    .imagen-tb-cel{
-        display: contents;
-        width: 100%;
-        text-align: center;
-    }
-    .imagen-tb-cel img{
-        width: 100%;
-    }
-    .imagen-tb-cel p{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-style: oblique;
-    }
-    .imagen-tb-cel a{
-        color: antiquewhite;
-        font-weight: bolder;
-        padding: 2%;
-        border-radius: 20px;
-        border: 2px solid chocolate;
-        text-decoration: none;
-        background-color: #FF5151;
-    }
-
-    .menu{
-        display: contents;
-    }
-    .navbar-brand{
-        text-align: center;
-        font-size: 4vh;
-        font-family: Angelta;
-        padding-top: 1%;
-    }
     .animenu{
-        width: 50%;
+        width: 100%;
         font-weight: bold;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
@@ -316,11 +326,82 @@ footer div{
         
     }
 
+    .primseccion{
+        display: none;
+    }
+    .imagen-tb-cel{
+        display: contents;
+        width: 100%;
+        text-align: center;
+        display: flex;
+    }
+    .caja1{
+        margin-top: 0%;
+        margin-left: 50%;
+        display: inline;
+        position: absolute;
+        width: 100%;
+        display: none;
+    }
+    .caja2{
+        margin-top: 0%;
+        margin-left: 0%;
+        display: inline;
+        width: 100%;
+    }
+    .imagen-tb-cel img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .imagen-tb-cel p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+    }
+    .tex-encima{
+        margin-top: 10%;
+        font-style: oblique;
+        font-weight: bold;
+        color:chocolate;
+        display: none;
+    }
+    .imagen-tb-cel a{
+        color: antiquewhite;
+        font-weight: bolder;
+        padding: 2%;
+        border-radius: 20px;
+        border: 2px solid chocolate;
+        text-decoration: none;
+        background-color: #FF5151;
+        animation-name: aniWhat;
+        animation-duration: 5s;
+        animation-iteration-count: 2;
+    }
 
+    .menu{
+        display: contents;
+    }
+    .navbar-brand{
+        text-align: center;
+        font-size: 4vh;
+        font-family: Angelta;
+        padding-top: 1%;
+    }
 
     .comentarios{
         display: none;
     }
+
+    @keyframes aniWhat {
+        to{
+            margin-left: 0%;
+        }
+        from{
+            margin-left: 100%;
+        }
+        
+    }
+
     footer {
         padding-top: 1%;
         width: 100%;
@@ -355,7 +436,7 @@ footer div{
         margin-bottom: 0%;
     }
 }  
-
+/*--------------------------------------------------------------------------------------------------------*/
 /*TERCER NIVEL CELULAR*/
 
 @media screen and (max-width: 550px) {
@@ -366,6 +447,29 @@ footer div{
     }
     h1{
         display: none;
+    }
+    .animenu{
+        width: 50%;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .animenu:hover{
+        background-color: #FF5151;
+        border: 2px solid chocolate;
+        border-radius: 20px;
+        animation-name: mover;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        text-align: center;
+    }
+    @keyframes mover {
+        from {
+            margin-left: 1%;
+        }
+        to{
+            margin-left: 20%;
+        }
+        
     }
 
     .primseccion{
@@ -385,9 +489,23 @@ footer div{
         display: none;
     }
     .imagen-tb-cel{
-        display: contents;
-        width: 100%;
+        display: inline;
+        width: 200%;
         text-align: center;
+    }
+    .caja1{
+        margin-top: 10%;
+        margin-left: 50%;
+        display: inline;
+        position: absolute;
+        width: 50%;
+        display: inline;
+    }
+    .caja2{
+        margin-top: 0%;
+        margin-left: 0%;
+        display: inline;
+        
     }
     .imagen-tb-cel img{
         width: 100%;
@@ -395,6 +513,13 @@ footer div{
     .imagen-tb-cel p{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
+    }
+    .tex-encima{
+        margin-top: 10%;
+        font-style: oblique;
+        font-weight: bold;
+        color:chocolate;
+        display: contents;
     }
     .imagen-tb-cel a{
         color: antiquewhite;
@@ -448,6 +573,8 @@ footer div{
     }
 
 }
+
+/*-----------------------------------------------------------------------------------------------------------*/
 
 /*FORMULARIO DE CONTACTO*/
 .bodyform{
